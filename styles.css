@@ -1,0 +1,92 @@
+/* Color Theme Swatches in Hex */
+:root {
+    --teal-1: #025259;
+    --teal-2: #007172;
+    --teal-3: #F29325;
+    --teal-4: #D94F04;
+    --teal-5: #F4E2DE; 
+  }
+  
+  
+  html,body{
+    width: 100%; height: 100%;
+    padding:0px; margin:0px;
+    font-family: Helvetica, Verdana, sans-serif;
+    background-color: var(--teal-3);
+  }
+  
+  .namecard {
+    width:300px; height: auto;
+    border: 0px solid var(--teal-2);
+    outline: 8px solid var(--teal-2);
+    border-radius: 25px;
+    
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    line-height: 0px;
+    box-shadow: 0 5px 5px -3px rgba(0,0,0,.5), 0 8px 10px 1px rgba(0,0,0,.6), 0 3px 14px 2px rgba(0,0,0,1);
+    box-sizing: border-box;
+    overflow: auto;
+  }
+  
+  .namecard .text-container-overlap {
+    position: relative ;
+    background-color: transparent;
+    margin: 30px;
+    margin-top: -110px;
+  }
+  .namecard .profile-image-container img{
+    padding: 0px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 50%);
+    width:100%; height:auto;
+    margin-bottom: 0px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, .5);
+  }
+  .namecard .profile-image-container {
+    
+    width:100%; height:auto;
+    overflow: hidden;
+}
+  .namecard h2{
+    font-size:25px;
+  }
+  .namecard .contacts h5{
+    padding-top: 1px;
+  }
+  .namecard h4.courseName{
+    font-size:18px;
+    line-height: 18px;
+  }
+  .namecard h5.collegeName{
+    margin-top: -10px;
+    line-height: 15px;
+  }
+  .namecard p.schoolName{
+    margin-top: -15px;
+    font-size: 12px
+  }
+  .namecard img.icon{
+    width:20px; height:20px;
+    vertical-align: middle;
+  }
+
+  .namecard .contacts p{
+    margin-top: 0px;
+  }
+
+  .namecard a:link {
+    color: var(--teal-1);
+    text-decoration-color: lightgray;
+  }
+  .namecard a:visited {
+    color: var(--teal-1);
+    text-decoration-color: lightgray;
+  }
+  .namecard a:hover {
+    color: orange;
+    text-decoration-color: lightgrey;
+  }
