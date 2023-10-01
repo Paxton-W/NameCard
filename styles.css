@@ -48,6 +48,12 @@ body {
   border-radius: 10px 10px 0px 0px;
   box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.5);
 }
+img.ual{
+  display: block;
+  margin-left: auto;
+  margin-right: 7%;
+  width: 15%; height: auto;
+}
 .namecard .profile-image-container {
   max-width: 100%;
   height: auto;
@@ -60,12 +66,15 @@ body {
 }
 .namecard h5.collegeName {
   font-size: 80%;
-  margin-top: -10px;
+  margin-top: -30px;
   line-height: 15px;
+  margin-right: 23%;
 }
 .namecard p.schoolName {
   margin-top: -15px;
   font-size: 70%;
+  margin-right: 23%;
+  line-height: 120%;
 }
 .namecard img.icon {
   width: 20px;
