@@ -127,7 +127,9 @@ h6.note{
   line-height: 20px;
   color: var(--teal-2);
 }
-
+.space{
+  height: 1px;
+}
 .footer {
   position: relative;
   bottom: 0;
