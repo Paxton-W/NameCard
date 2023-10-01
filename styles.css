@@ -101,15 +101,17 @@
     position: relative;
     bottom: 0;
     width: 100%;
-    background-color: transparent; /* Adjust the background color as needed */
-    padding: 10px 0; /* Adjust the padding as needed */
+    background-color: transparent; 
+    padding: 10px 0; 
     text-align: center;
     color: var(--teal-5);
 }
 
   @media (max-width: 680px) {
     .namecard {
-        margin: 40px; /* Margin for screens with width less than or equal to 600px */
+        margin-top: 60px; 
+        margin-left: 40px;
+        margin-right: 40px;
     }
 }
 
